@@ -7,7 +7,7 @@ const GreyBoard = () => {
   return (
     <Container fluid className="grey_board py-5">
       <Container>
-        <div class=" text-center sticker p-3 mt-3 position-absolute">
+        <div class=" text-center sticker p-3 mt-3 position-absolute d-md-block d-none">
           <img src={Stars} alt="stars" />
           <h2 class="mb-0 mt-1" style={{ fontWeight: "700" }}>
             NOVEMBER

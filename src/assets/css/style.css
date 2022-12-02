@@ -194,10 +194,17 @@
     width: 100%;
     padding-top: 35px;
     padding-bottom: 35px;
-    padding-left: 135px;
-    padding-right: 135px;
+    padding-left: 120px;
+    padding-right: 120px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+@media (max-width: 1060px) {
+    .wie-box {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
 }
 
 .wie-title {
@@ -213,6 +220,8 @@
     color: #fff
 }
 
+
+
 .wie-btn {
     border-radius: 5px;
     background-color: #ee5a24;
@@ -223,11 +232,73 @@
 
 .Wie-best {
     position: absolute;
-    right: -10%;
+    right: -15%;
     top: 24%;
-    width: 200px
+    width: 22%
 }
-.Wie-Adr{
+
+.Wie-Adr {
     position: absolute;
-    right:-35%
+    right: -45%
+}
+
+
+
+.exp-bg {
+    background: url(../img/standing-cycles.png);
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    background-size: cover;
+}
+
+.exp-card {
+    margin-left: -120px ;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 7px;
+}
+@media only screen and (max-width: 992px){
+    .exp-card {
+        margin: auto ;
+      
+    }
+}
+
+.exp-title {
+    font-size: 22pt;
+    letter-spacing: 1px;
+    color: #000;
+    font-weight: bold
+}
+
+.exp-btn {
+    border-radius: 7px;
+    background-color: #ee5a24;
+    border-color: #ee5a24;
+    font-size: 17pt;
+}
+
+.sticker-sm {
+
+    background: #000;
+    border-radius: 10px;
+    color: #fefeff;
+    width: 150px;
+    height: 90px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+.sticker-text {
+    font-size: 20px;
+    margin-bottom: -7px;
+    margin-top: 5px;
+    font-weight: bold;
+
+}
+
+.sticker-sm img {
+    width: 90%
 }

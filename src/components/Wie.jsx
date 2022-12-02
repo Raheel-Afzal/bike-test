@@ -6,7 +6,7 @@ import ADR from "../assets/img/ADR.png"
 const Wie = () => {
   return (
     <div className="wie_bg">
-      <Row className="pt-5">
+      <Row className="pt-5 mr-0">
         <Col md={7} className="wie-box">
           <Row>
             <Col>
