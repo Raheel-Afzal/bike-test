@@ -11,7 +11,8 @@
     justify-content: center;
     align-items: center;
 }
-.footer{
+
+.footer {
     margin: 0;
     background-color: black;
     height: 77px;
@@ -19,6 +20,7 @@
     align-items: center;
 
 }
+
 .Black_Container {
     background-color: black;
 
@@ -81,63 +83,69 @@
     border-radius: 20px;
 }
 
-.best-sm{
-    top:-14.7%;
+.best-sm {
+    top: -14.7%;
     left: 15%;
-    
-}
-.rupee{
-    top:40%;
-    left:-9%;
-    
-    
-    
+
 }
 
-.grey_board{
+.rupee {
+    top: 40%;
+    left: -9%;
+
+
+
+}
+
+.grey_board {
     background-color: #e3e3e3;
 
 }
 
-.GreyBoard_title{
+.GreyBoard_title {
     font-size: 30pt;
     letter-spacing: 1px;
     color: #000;
     font-weight: 700
 }
 
-.Board_Number{
+.Board_Number {
     font-size: 14pt;
     line-height: 1.5;
     color: #ee5a24;
     font-weight: 700;
     padding-right: 5px;
-    border-right: 2px solid ;
+    border-right: 2px solid;
 }
-.Progress_Bar1{
+
+.Progress_Bar1 {
     width: 95px;
     height: 25px;
     background-color: #ee5a24;
 
 }
-.Progress_Bar2{
+
+.Progress_Bar2 {
     width: 190px;
     height: 25px;
     background-color: #ee5a24;
 
 }
-.Progress_Bar3{
+
+.Progress_Bar3 {
     width: 280px;
     height: 25px;
     background-color: #ee5a24;
 
 }
-.Progress_Bar4{
+
+.Progress_Bar4 {
     width: 370px;
     height: 25px;
     background-color: #ee5a24;
 
 }
+
 .progress-text {
     font-size: 14pt;
     letter-spacing: 1px;
@@ -145,29 +153,81 @@
     color: #000;
     font-weight: 700;
     margin-bottom: 0;
-    
+
 }
 
 .sticker {
- 
-    background: #000 ;
+
+    background: #000;
     border-radius: 10px;
     color: #e4e4e5;
     width: 210px;
     height: 120px;
     right: 14%;
-    
+
 
 }
-.Qouatation{
+
+.Qouatation {
     background-color: #000
 }
 
-.testi__title{
+.testi__title {
     font-size: 38px;
     letter-spacing: 1px;
     line-height: 47px;
     color: #fff;
     z-index: 999;
     position: relative
+}
+
+.wie_bg {
+    background-image: url(../img/bg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.wie-box {
+    position: relative;
+    background-color: #ee5a24;
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 135px;
+    padding-right: 135px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.wie-title {
+    font-size: 28pt;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: bold
+}
+
+.wie-para {
+    font-size: 12pt;
+    line-height: 30px;
+    color: #fff
+}
+
+.wie-btn {
+    border-radius: 5px;
+    background-color: #ee5a24;
+    border: 5px solid #fff;
+    font-size: 16pt;
+    margin-top: 1rem;
+}
+
+.Wie-best {
+    position: absolute;
+    right: -10%;
+    top: 24%;
+    width: 200px
+}
+.Wie-Adr{
+    position: absolute;
+    right:-35%
 }

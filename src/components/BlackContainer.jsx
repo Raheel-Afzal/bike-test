@@ -10,7 +10,7 @@ const BlackContainer = () => {
       <Row className=" align-items-center ">
         <Col  className="offset-md-1">
           <h2 className="MV_title">
-            <span>November</span> test maand <br />
+            <span>December</span> test maand <br />
             <span className="text-white">Bij Fietstest.Nl</span>
           </h2>
           <p className="mt-2 mt-md-4 mr-md-5 MV_Para">

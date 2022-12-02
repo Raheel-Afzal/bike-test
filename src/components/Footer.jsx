@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import FooterImg from "../assets/img/logo-footer.png";
 const Footer = () => {
   return (
