@@ -11,7 +11,14 @@
     justify-content: center;
     align-items: center;
 }
+.footer{
+    margin: 0;
+    background-color: black;
+    height: 77px;
+    justify-content: center;
+    align-items: center;
 
+}
 .Black_Container {
     background-color: black;
 
@@ -151,4 +158,16 @@
     right: 14%;
     
 
+}
+.Qouatation{
+    background-color: #000
+}
+
+.testi__title{
+    font-size: 38px;
+    letter-spacing: 1px;
+    line-height: 47px;
+    color: #fff;
+    z-index: 999;
+    position: relative
 }
