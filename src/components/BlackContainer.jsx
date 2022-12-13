@@ -6,9 +6,9 @@ import Best from "../assets/img/best-getest-small.png";
 import Rupee from "../assets/img/500.png";
 const BlackContainer = () => {
   return (
-    <Container fluid  className="Black_Container  py-md-5">
+    <Container fluid className="Black_Container  py-md-5">
       <Row className=" align-items-center ">
-        <Col  className="offset-md-1">
+        <Col className="offset-md-1">
           <h2 className="MV_title">
             <span>December</span> test maand <br />
             <span className="text-white">Bij Fietstest.Nl</span>
@@ -27,12 +27,9 @@ const BlackContainer = () => {
             Let op: beperkt aantal testplekken beschikbaar.
           </span>
         </Col>
-        <Col className=" m-0  ">
-          <img src={Best} class="position-absolute best-sm " alt="" />
-          <img src={Rupee} class="position-absolute rupee w-25" alt="" />
-
-          <div class="Carousel p-5">
-            <img src={Cycle1} class={"img-fluid"} alt="" />
+        <Col className=" m-0 p-0">
+          <div className="Carousel p-5 ">
+            <img src={Cycle1} className={"img-fluid"} alt="" />
           </div>
           <div>
             <button className="Crousel_btn "></button>
@@ -43,6 +40,9 @@ const BlackContainer = () => {
             <button className="Crousel_btn "></button>
             <button className="Crousel_btn "></button>
           </div>
+
+          <img src={Best} className="position-absolute best-sm " alt="" />
+          <img src={Rupee} className="position-absolute rupee w-25" alt="" />
         </Col>
       </Row>
     </Container>

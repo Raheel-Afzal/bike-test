@@ -1,5 +1,6 @@
 import React from "react";
 import BlackContainer from "../components/BlackContainer";
+import Cycles from "../components/Cycles";
 import Experience from "../components/Experience";
 import GreyBoard from "../components/GreyBoard";
 import OnsTestPanel from "../components/OnsTestPanel";
@@ -14,6 +15,7 @@ const MainView = () => {
       <GreyBoard/>
       <Wie/>
       <OnsTestPanel/>
+      <Cycles/>
       <Quotation/>
       <Experience/>
     </>

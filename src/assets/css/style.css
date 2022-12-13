@@ -4,6 +4,8 @@
     font-style: normal
 }
 
+
+
 .Header {
     margin: 0;
     background-color: white;
@@ -43,17 +45,23 @@
     line-height: 42px;
     color: #fff;
 }
-
+.cycles_btn,
 .MV_btn {
     font-size: 18px;
     letter-spacing: 1px;
     padding: 12px 20px;
     border-radius: 5px;
     background-color: #ee5a24;
-
     border: 0;
 }
 
+.cycles_btn{
+    font-size: 22px;
+    padding: 10px 20px;
+    font-weight: bold;
+
+}
+.cycles_btn:hover,
 .MV_btn:hover {
     background-color: #ee5a24;
 
@@ -69,7 +77,7 @@
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     background-color: #fff;
-    width: 102%;
+    width: 100%;
 }
 
 .Crousel_btn {
@@ -83,6 +91,11 @@
     border-radius: 20px;
 }
 
+.VueCarousel-wrapper {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    background-color: #fff
+}
 .best-sm {
     top: -14.7%;
     left: 15%;
@@ -169,16 +182,23 @@
 }
 
 .Qouatation {
-    background-color: #000
+    background-color: #000;
+    text-align: center;
+    color:#fff;
 }
 
-.testi__title {
+.qouation-line{
     font-size: 38px;
     letter-spacing: 1px;
     line-height: 47px;
     color: #fff;
     z-index: 999;
     position: relative
+}
+.testi__img {
+    position:absolute;
+    top: 14%;
+    left: 12.3%;
 }
 
 .wie_bg {
@@ -305,10 +325,6 @@
 }
 
 
-
-
-
-
 .ons-title {
     font-size: 29.5pt;
     color: #000;
@@ -320,8 +336,6 @@
     line-height: 27px;
     width: 67%;
 }
-
-
 
 .ons-card {
     margin-top: 8%;
@@ -344,7 +358,6 @@
     color: #ee5a24
 }
 
-
 .ons-sticker{
     position: absolute;
     background: #000;
@@ -363,13 +376,3 @@
 
 
 
-
-
-
-.OnsStyle {
-    transform: translate(-900px, 0px);
-    transition: transform 0.5s ease 0s;
-    flex-basis: 450px;
-    visibility: visible;
-    height: auto;
-}
