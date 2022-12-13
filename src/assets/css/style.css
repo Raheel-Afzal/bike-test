@@ -252,15 +252,16 @@
 }
 
 .exp-card {
-    margin-left: -120px ;
+    margin-left: -120px;
     padding: 25px;
     background-color: #fff;
     border-radius: 7px;
 }
-@media only screen and (max-width: 992px){
+
+@media only screen and (max-width: 992px) {
     .exp-card {
-        margin: auto ;
-      
+        margin: auto;
+
     }
 }
 
@@ -301,4 +302,74 @@
 
 .sticker-sm img {
     width: 90%
+}
+
+
+
+
+
+
+.ons-title {
+    font-size: 29.5pt;
+    color: #000;
+    font-weight: bold
+}
+
+.ons-Para {
+    font-size: 12pt;
+    line-height: 27px;
+    width: 67%;
+}
+
+
+
+.ons-card {
+    margin-top: 8%;
+    border-radius: 5px;
+    background-color: #e3e3e3;
+    text-align: center;
+    padding: 15%  0 15% 0;
+}
+
+
+.ons-card-text,
+.ons-card-text span {
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    font-weight: 700
+}
+
+.ons-card-text span {
+    color: #ee5a24
+}
+
+
+.ons-sticker{
+    position: absolute;
+    background: #000;
+    border-radius: 10px;
+    color: #e4e4e5;
+    width: 210px;
+    height: 120px;
+    text-align: center;
+    top:5%;
+    left: 80%;
+    padding: 10px;
+    z-index: 9999;
+    
+}
+
+
+
+
+
+
+
+.OnsStyle {
+    transform: translate(-900px, 0px);
+    transition: transform 0.5s ease 0s;
+    flex-basis: 450px;
+    visibility: visible;
+    height: auto;
 }
