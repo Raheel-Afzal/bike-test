@@ -1,10 +1,24 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import Arrow from "../assets/img/arrow.png";
-import Cycle1 from "../assets/img/cycle1.png";
+import * as myCycles from "./Images/CycleImages";
 import Best from "../assets/img/best-getest-small.png";
 import Rupee from "../assets/img/500.png";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination } from "swiper";
+
+
 const BlackContainer = () => {
+  const CyclesImages = [
+    myCycles.Cycle1,
+    myCycles.Cycle2,
+    myCycles.Cycle3,
+    myCycles.Cycle4,
+    myCycles.Cycle5,
+  ];
   return (
     <Container fluid className="Black_Container  py-md-5">
       <Row className=" align-items-center ">
@@ -27,9 +41,27 @@ const BlackContainer = () => {
             Let op: beperkt aantal testplekken beschikbaar.
           </span>
         </Col>
-        <Col className=" m-0 p-0">
+        <Col lg={6} className=" m-0 p-0">
           <div className="Carousel p-5 ">
-            <img src={Cycle1} className={"img-fluid"} alt="" />
+            <Swiper
+              
+              spaceBetween={30}
+              centeredSlides={true}
+             
+              pagination={{
+                clickable: true,
+              }}
+              modules={[ Pagination]}
+              className="mySwiper"
+            >
+              {CyclesImages.map((image) => {
+                return (
+                  <SwiperSlide key={image}>
+                    <img src={image} alt="" className="w-100" />
+                  </SwiperSlide>
+                );
+              })}
+            </Swiper>
           </div>
           <div>
             <button className="Crousel_btn "></button>

@@ -6,6 +6,8 @@ import App from './App';
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./assets/css/style.css"
+import "swiper/css/bundle";
+
 
 ReactDOM.render(
   <React.StrictMode>
